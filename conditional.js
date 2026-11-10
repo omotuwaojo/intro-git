@@ -58,3 +58,7 @@ if (testScore2 >= 60) {
 } else {
     console.log("Fail");
 }
+
+let pass = "rukatech@26";
+let result2 = pass === "rukatech@26" ? "Access granted" : "Access denied";
+console.log(result2); // Output: Access granted
