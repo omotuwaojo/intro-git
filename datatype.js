@@ -14,12 +14,24 @@ Object
 */
 
 // String
-let name = "Tunde12344";
+let name = "Tunde";
 console.log(name);
+
+// concatination
+let greeting = "Hello, " + name + "!";
+console.log(greeting);
+
+let welcomeMessage = `Welcome, ${name}!`;
+console.log(welcomeMessage);
+
+
+
 
 // Number
 let age = 20;
-console.log(age);
+console.log(`user age is : ${age}`);
+
+
 
 console.log(typeof name);
 console.log(typeof age);
