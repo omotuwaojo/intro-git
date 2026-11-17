@@ -98,3 +98,7 @@ let w = 5;
 let x1 = 3;
 console.log(w & x1); // 1
 
+// Spread operator
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5];
+console.log(arr2); // [1, 2, 3, 4, 5]
