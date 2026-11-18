@@ -61,6 +61,8 @@ console.log(`Soft copy of teas: ${softCopyTeas}`);
    Create a hard copy of this array named `hardCopyCities`.
 */
 let topCities = ["Berlin", "Singapore", "New York"];
+hardCopyCities = JSON.parse(JSON.stringify(topCities));
+console.log(`Hard copy of cities: ${hardCopyCities}`);
 
 
 
@@ -69,19 +71,24 @@ let topCities = ["Berlin", "Singapore", "New York"];
 8. You have two arrays: `europeanCities` containing `"Paris"` and `"Rome"`, and `asianCities` containing `"Tokyo"` and `"Bangkok"`. 
    Merge these two arrays into a new array named `worldCities`.
 */
-
-
-
-
+let europeanCities = ["Paris", "Rome"];
+let asianCities = ["Tokyo", "Bangkok"];
+let worldCities = [...europeanCities, ...asianCities];
+console.log(`Merged world cities is: ${worldCities}`);
 
 /* 
 9. You have an array named `teaMenu` containing `"masala chai"`, `"oolong tea"`, `"green tea"`, and `"earl grey"`. 
    Find the length of the array and store it in a variable named `menuLength`.
 */
-
+let teaMenu = ["masala chai", "oolong tea", "green tea", "earl grey"];
+let menuLength = teaMenu.length;
+console.log(`Length of tea menu is: ${menuLength}`);    
 
 
 /* 
 10. You have an array named `cityBucketList` containing `"Kyoto"`, `"London"`, `"Cape Town"`, and `"Vancouver"`. 
     Check if `"London"` is in the array and store the result in a variable named `isLondonInList`.
 */
+let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
+let isLondonInList = cityBucketList.includes("London");
+console.log(`Is London in the bucket list? ${isLondonInList}`);
