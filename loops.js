@@ -31,9 +31,10 @@ for (let i = 0; i < 10; i++) {
 }
 
 // Continue statement is used to skip the current iteration of a loop and move on to the next iteration
+
 for (let i = 0; i < 10; i++) {
     if (i === 5) {
-        continue;
+        continue;   
     }
     console.log(`This is iteration number ${i}`);
 }
