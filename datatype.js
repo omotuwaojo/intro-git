@@ -17,14 +17,12 @@ Object
 let name = "Tunde";
 console.log(name);
 
-// concatination
-let greeting = "Hello, " + name + "!";
+//concatenation means joining two or more strings together. e.g
+letgreeting = "Hello, " + name + "!";
 console.log(greeting);
 
-let welcomeMessage = `Welcome, ${name}!`;
+let welcomeMessage = `Welcome, ${name}!`; // using template literals
 console.log(welcomeMessage);
-
-
 
 
 // Number
