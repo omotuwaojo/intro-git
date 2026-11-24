@@ -18,28 +18,8 @@ console.log(selectedTeas); // Output: ["green tea", "black tea"]
    Store the other cities in a new array named `visitedCities`.
 */
 
-let cities = ["London", "New York", "Paris", "Berlin"];
-let visitedCities = [];
-for (let i = 0; i < cities.length; i++){
-    if (cities[i] === "Paris" || cities[i] === "paris") {
-        continue;
-    }
-    visitedCities.push(cities[i]);
-}
-console.log(visitedCities); // Output: ["London", "New York", "Berlin"]
 
 /* 
 3. Use a `for-of` loop to iterate through the array `[1, 2, 3, 4, 5]` and stop when the number `4` is found. 
    Store the numbers before `4` in an array named `smallNumbers`.
 */
-
-let numbers = [1, 2, 3, 4, 5];
-let smallNumbers = [];
-
-for ( const num of numbers){
-    if (num === 4){
-        break;
-    } 
-    smallNumbers.push(num);
-}
-console.log(smallNumbers); // Output: [1, 2, 3] 
